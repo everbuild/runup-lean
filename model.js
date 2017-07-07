@@ -3,7 +3,8 @@ module.exports = {
         {
             filter: '**/*.js',
             dev: 'js/rollup',
-            prd: '@dev js/babel js/uglify'
+            prd: '@dev js/babel js/uglify',
+            check: 'js/eslint'
         },
         {
             filter: '**/*.css',
