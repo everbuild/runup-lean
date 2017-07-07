@@ -1,0 +1,7 @@
+button.counter {
+  @for $i from 1 through 10 {
+    &.click-#{$i} {
+      opacity: 1 - $i/12.5
+    }
+  }
+}

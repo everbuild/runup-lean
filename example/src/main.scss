@@ -1,0 +1,20 @@
+
+@import "common/colors";
+@import "components/counter/counter";
+
+body {
+  background: $backgroundColor1;
+  animation: backgroundColor 8s infinite;
+  color: $textColor;
+  font-family: monospace;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+@keyframes backgroundColor
+{
+  0%   {background: $backgroundColor1;}
+  50%  {background: $backgroundColor2;}
+  100% {background: $backgroundColor1;}
+}

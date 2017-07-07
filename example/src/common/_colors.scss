@@ -1,0 +1,7 @@
+
+$color1: #e0efff;
+$color2: #ffe9cf;
+
+$backgroundColor1: $color1;
+$backgroundColor2: $color2;
+$textColor: darken(mix($color1, $color2, 50%), 50%);
