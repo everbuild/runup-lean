@@ -1,6 +1,6 @@
 {
   "name": "runup-lean",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./model.js",
   "scripts": {
     "lint": "eslint --config flows/js/.eslintrc.js --ignore-path .gitignore **/*.js",
