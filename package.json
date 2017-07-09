@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "main": "./model.js",
   "scripts": {
-    "postversion": "git push && git push --tags"
+    "lint": "eslint --config flows/js/.eslintrc.js --ignore-path .gitignore **/*.js",
+    "preversion": "npm run lint",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "keywords": [
     "runup",
-    "lean"
+    "lean",
+    "model"
   ],
   "author": "Evert Bauwens (https://github.com/everbuild)",
   "license": "MIT",
